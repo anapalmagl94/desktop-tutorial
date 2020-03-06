@@ -1,0 +1,214 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+/*variables*/
+:root {
+--red-color: #F6514A;
+--white-color: #ffffff;
+/*tipografía*/
+--normal: 12px;
+/*espaciado*/
+--space: 10px;
+/*box shadow*/
+--box: 0px 0 2px 1px #cecece;
+}
+/*variables*/
+
+/*HTML/BODY*/
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: Helvetica;
+}
+
+/*Nav*/
+nav{
+  display: flex;
+  background-color: var(--red-color);
+  padding: 10px;
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display:flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: black;
+}
+
+/*Main section*/
+.main_section{
+  padding: 120px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #049DD9;
+}
+/*Prodcutos*/
+.products{
+  background-image: url("../images/bck_curve.png");
+  /* max-height: 50px; */
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding: 20px;
+  margin-top: -240px;
+}
+
+.product .content {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 2px #cecece;
+  text-align: center;
+}
+
+.img_content {
+  text-align: center;
+}
+
+p{
+  padding: 20px;
+}
+.main_button{
+  background-color: var(--red-color);
+  width: 100px;
+  padding: 10px;
+  font-size: var(--normal);
+  color: white;
+  border: 0px;
+  cursor:pointer;
+}
+
+.main_button:hover {
+  background-color: #D10D05;
+}
+
+/* Beneficios */
+h1.mention_titulo{
+  color: #049DD9;
+  padding:10px;
+  text-align: center;
+}
+
+.beneficios{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.beneficio{
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img{
+  max-height: 100px;
+}
+
+.text_beneficio{
+  text-align: justify;
+}
+
+/* Menciones */
+.group_mencion{
+  background-image: url("../images/bck_curve2.svg");
+  justify-content: center;
+  position: top;
+  background-size: cover;
+  /* max-height: 180px; */
+  padding-bottom: 200px;
+
+}
+
+h1.mention_title{
+  color: #049DD9;
+  padding:50px;
+  text-align: center;
+}
+
+.menciones{
+  padding-bottom: 100px;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mencion{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.content_mencion{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+      background-color: white;
+      padding-bottom: 10px;
+}
+
+.img_mencion{
+  background-color: #F2CB05;
+  padding: 20px;
+}
+
+p.text_beneficio{
+  padding: 10px;
+}
+/* ------------------------------------------- Venta0 */
+
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0px 0  2px 1px #e6e5e9;
+  padding: 10px;
+}
+
+.modulo_pago_images{
+  max-width: 220px;
+  margin: auto;
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid #e6e5e9;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+  padding-top: 10px;
+}
+
+
+/* ------------------------------------------- Footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;;
+  background-color: #F6514A;
+  padding: 10px;
+  margin-top: 50px;
+  color: white;
+ }
+}
